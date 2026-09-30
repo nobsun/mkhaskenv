@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat >> $HOME/.bashrc << EOF
+cat >> $HOME/.bashrc << 'EOF'
 
 # ~/.local/bin
 export PATH=$HOME/.local/bin:$PATH
