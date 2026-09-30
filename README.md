@@ -40,3 +40,12 @@ Ubuntu 26.04 LTS（およびその派生）でHaskellプログラミング環境
   bash -e install-haskell-progenv-novscode.sh
   exit
   ```
+- VSCode インストール済みの場合
+  ```console
+  sudo apt install -y git
+  git clone https://github.com/nobsun/mkhaskenv.git
+  cd mkhaskenv
+  bash -e install-haskell-progenv-novscode.sh
+  exit
+  ```
+  VSCodeに拡張機能Haskellをインストール
